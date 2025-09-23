@@ -3,6 +3,11 @@ html {
   font-size: 20px;
 }
 
+h1{
+  text-align: center;
+  color: white;
+}
+
 ul {
   background: red;
   padding: 10px;
