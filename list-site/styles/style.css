@@ -3,6 +3,22 @@ html{
 
 }
 
-body{
+body{   
     font-size: 20px;
+}
+
+h2{
+    text-align:center;
+    color: pink;
+}
+abbr{
+    color: green;
+}
+
+a{
+    color: red;
+}
+
+quote{
+    color: purple;
 }
