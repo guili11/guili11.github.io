@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name ="viewport" content="width=device-width"/>
+        <meta name="author" content="guili"/>
+        <meta name="description" content="this is a list page"/>
+        <title> 学习制作菜肴吧！</title>
+        
+        <link rel="stylesheet" href="./styles/style.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans"/>
+        <link rel="icon" href="./iamges/favicon.ico" type="image/x-icon"/>
+        
+        <script src="./scripts/script.js" defer></script>
+         <!-- 因为js实际上是对html内容的操纵，所以等到html加载完毕了才可以加载 js内容，defer保证了这一条件-->
+    </head>
+
+<body>
+    <h1>早餐吃什么？(这是一个无序列表)</h1>
+    <ul>
+        <li>豆浆</li>
+        <li>油条</li>
+        <li>包子</li>
+        <li>稀饭</li>
+    </ul>
+
+    <h1>午餐吃什么？(这是一个有序列表)</h1>
+    <ol>
+        <li>米饭</li>
+        <li>炒菜<!-- 嵌套列表 注意与下边的描述列表区分 -->
+            <ul>
+                <li>青菜</li>
+                <li>肉</li>
+                <li>鱼</li>
+            </ul>  
+        </li>
+        <li>汤</li>
+    </ol>
+
+    <h1> 食物介绍（这是一个描述列表）</h1>
+    <!-- 类似别的列表 描述列表有  dl des list    dt des item  dd  des definition -->
+    <dl>
+        <dt>培根</dt>
+        <image src="./iamges/bacon.png" alt="培根"  width="200px" />
+         <!-- 这里的width会将宽度限制为200px -->
+        <dd>培根(<em>Bacon</em>),又称熏肉,是一种用猪肉腌制后熏制或风干而成的<strong>肉制品</strong>,通常切成薄片食用。</dd>
+        <dt>鸡蛋</dt>
+        <image src="./iamges/egg.png" alt="鸡蛋" width="200px"/>
+         
+        <dd>鸡蛋是母鸡产下的卵，通常呈椭圆形，外壳坚硬，内部包含蛋白和蛋黄，是人类常见的食物来源之一。</dd>
+        <dd>鸡蛋富含优质蛋白质、维生素和矿物质，对人体健康有益。</dd>
+    </dl>
+
+
+    <p>
+        <a href="https://baike.baidu.com/item/%e5%ad%94%e5%ad%90/1584">孔子</a>说过：
+        <q cite="https://www.gushiwen.cn/mingju/juv.aspx?id=0c4e117447a4">三人行，则必有我师焉</q>，所以我们三个人要好好吃饭
+
+        <blockquote cite="https://www.gushiji.cc/haoju/EFC000.html"> 活在当下，无论多忙，把忙碌的精神回收回来，吃饭时就是吃饭，一心一意，全神贯注地觉知身体的每一个变化，不去想乱七八糟的东西。
+            专注地吃饭，照顾好自己的身体，这就是生活当下的全部！</blockquote>   --摘自<a href="https://www.gushiji.cc/haoju/EFC000.html">故事集</a>
+    </p>
+</body>
+
+
+
+</html>
